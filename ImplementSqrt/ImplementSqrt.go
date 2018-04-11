@@ -15,6 +15,6 @@ func Sqrt(x float64) float64 {
 }
 
 func main() {
-	fmt.Printf("My Sqrt(%d) is %g\n", 2, Sqrt(2))
-	fmt.Printf("math.Sqrt(%d) is %g\n", 2, math.Sqrt(2))
+	fmt.Printf("My Sqrt(%d) is %g\n", 98, Sqrt(98))
+	fmt.Printf("math.Sqrt(%d) is %g\n", 98, math.Sqrt(98))
 }
