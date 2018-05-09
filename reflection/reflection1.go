@@ -20,6 +20,7 @@ func main() {
 	Info(u)
 }
 
+/*反射取出结构的类型，以及字段的名称、类型、值，及结构的方法*/
 func Info(o interface{}) {
 	t := reflect.TypeOf(o)
 	fmt.Println("Type:", t.Name())

@@ -1,5 +1,6 @@
 package main
 
+/*反射嵌入结构*/
 import (
 	"fmt"
 	"reflect"
