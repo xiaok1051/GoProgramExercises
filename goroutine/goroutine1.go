@@ -1,3 +1,4 @@
+/*chanal最基本的操作*/
 package main
 
 import (
